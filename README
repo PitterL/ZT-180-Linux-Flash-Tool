@@ -1,0 +1,22 @@
+This program allow to flash Zenithik ZT-180 pad from Linux.
+(c) 2010 Yuri Kozlov <yuray@komyakino.ru>
+
+	I AM NOT RESPONSIBLE IF YOU DAMAGE YOUR DEVICE,
+			FLASH AT YOUR OWN RISK IN!!!
+
+Requirements:
+	ZT-180 Android firmware files
+	building software:
+		build-essential (gcc, libc-dev ...),
+		libusb-1.0-0-dev
+
+Building:
+	make
+
+Setup:
+	open flash.sh and change the paths to firmware files
+
+Flashing:
+	sudo ./flash.sh
+	push the reset button on device
+
